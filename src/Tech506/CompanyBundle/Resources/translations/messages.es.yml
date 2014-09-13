@@ -1,0 +1,54 @@
+page.title.default: Tech 506
+page.author: Selim Diaz A.
+page.description: Tech506 es la empresa encargada de suministrarle su solucion de acuerdo a sus requerimientos
+page.tags: Technologia, Software, Hardware
+
+#Main Menu
+page.menu.main.home: Inicio
+page.menu.main.welcome: Bienvenido
+page.menu.main.contact: Contacto
+page.menu.main.get.in.touch: Cuéntanos
+page.menu.main.about.us: Nosotros
+page.menu.pages: Páginas
+page.menu.categories: Categorías
+page.menu.main.portfolio: Portafolio
+page.menu.main.showcase.work: Nuestro trabajo
+
+page.footer.rights: © 2014 - Tech506
+page.to.top: Arriba
+
+#Main Banners Information
+page.banner.1.info: Visita nuestro sitio regularmente y obtenga grandes descuentos para sus próximos proyectos!!!
+page.banner.2.info: Estamos comprometidos en brindarle lo que usted necesita sin generarle cargos extras por trabsjos inncesarios
+page.banner.3.info: Nuestra experiencia y el uso de altos estándares le garantizan la mejor solución a su necesidad
+
+#Contact Page
+contact.title: Contáctenos
+contact.subtitle: Envíenos su mensaje y pongámonos en contacto
+contact.form.title: Formulario de Contacto
+contact.form.name: Nombre
+contact.form.email: Correo electrónico
+contact.form.website: Sitio Web
+contact.form.country: País
+contact.form.phone: Teléfono
+contact.form.comments: Comentarios
+contact.form.send: ENVIAR
+contact.info: Nuestro representante se encuentra localizado en la hermosa tierra colombiana pero nuestros diseñadores y programadores están alrededor del mundo lo que nos permite poder llegar hasta usted y brindarle nuestra mejor atención.
+
+#Portfolio Page
+portfolio.title: Portafolio
+portfolio.subtitle: Estos son sólo algunos de nuestros proyectos
+portfolio.view.project: Ver proyecto
+
+page.services: Servicios
+page.services.web: Páginas Web
+page.services.web.info: Incluya la información de su negocio en un sitio de Internet, presente su trabajo con el uso de gráficos y prepárese para obtener mayores oportunidades. Mencione su página web junto a su información de contacto y note la diferencia.
+page.services.custom: Sistemas a la Medida
+page.services.custom.info: Aplicaciones personalizadas de acuerdo a sus necesidades específicas y de su negocio. Entregamos soluciones robustas gracias a nuestra experiencia, talento técnico y una metodología de desarrollo establecida.
+page.services.ebusiness: Comercio Electronico
+page.services.ebusiness.info: Somos experimentados en el desarrollo de sistemas con complejos algorítmicos lógicos y grandes cantidades de datos y transacciones. Estamos capacitados para brindarle soluciones innovadoras y confiables para complementar sus más complejas ideas.
+
+more.about.us: Más sobre nosotros
+company.services: Soluciones de Negocio, Desarrollo de Tecnologías Móviles and servicios de software.
+company.slogan: Su mejor socio en los negocios
+company.resume: Tech506 es una compañia con una amplía diversidad en su equipo de diseñadores y programados capaces de cumplir con múltiples necesidades de desarrollo. Nuestras especialidades y fortalezas en tecnología incluyen el desarrollo de sistemas a la medida. Desarrollamos para múltiples plataformas como Windows, Linux y por supuesto sistemas Web.

@@ -1,0 +1,11 @@
+company_homepage:
+    path:     /
+    defaults: { _controller: CompanyBundle:Public:home }
+
+company_portfolio:
+    pattern:  /portfolio/
+    defaults: { _controller: CompanyBundle:Public:portfolio }
+
+company_contact:
+    pattern:  /contact/
+    defaults: { _controller: CompanyBundle:Public:contact }

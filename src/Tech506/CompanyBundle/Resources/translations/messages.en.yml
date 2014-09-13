@@ -1,0 +1,54 @@
+page.title.default: Tech 506
+page.author: Selim Diaz A.
+page.description: Tech506 es la empresa encargada de suministrarle su solucion de acuerdo a sus requerimientos
+page.tags: Technologia, Software, Hardware
+
+#Main Menu
+page.menu.main.home: Home
+page.menu.main.welcome: Welcome
+page.menu.main.contact: Contact
+page.menu.main.get.in.touch: Get in touch
+page.menu.main.about.us: About Us
+page.menu.pages: Pages
+page.menu.categories: Categories
+page.menu.main.portfolio: Portfolio
+page.menu.main.showcase.work: Showcase work
+
+page.footer.rights: © 2014 - Tech506
+page.to.top: To top
+
+#Main Banners Information
+page.banner.1.info: Visit my web site regularly and get great discounts for your projects each month!
+page.banner.2.info: We will give you nothing more than what you need, no extra charges for things that you don't desire
+page.banner.3.info: Our experience and the use of development standars will garantize the best solutions for you
+
+#Contact Page
+contact.title: Contact us
+contact.subtitle: Send us your message and keep in touch
+contact.form.title: Contact Form
+contact.form.name: Name
+contact.form.email: Email
+contact.form.website: Website
+contact.form.country: Country
+contact.form.phone: Phone
+contact.form.comments: Commments
+contact.form.send: SEND
+contact.info: Nuestro representante se encuentra localizado en la hermosa tierra colombiana pero nuestros diseñadores y programadores están alrededor del mundo lo que nos permite poder llegar hasta usted y brindarle nuestra mejor atención.
+
+#Portfolio Page
+portfolio.title: The Portfolio
+portfolio.subtitle: Just a few of our prjects
+portfolio.view.project: View project
+
+page.services: Services
+page.services.web: Web Solutions
+page.services.web.info: Add information about your business on website, present your work with the use of graphics, and get ready for the opportunities through web presence. Mention the name of your business site bellow your contact details and see the difference.
+page.services.custom: Custom Solutions
+page.services.custom.info: Custom application development tailored to the client’s specific business requirements. We deliver applications combining our solid cross-domain experience, technological expertise and an established development methodology.
+page.services.ebusiness: EBusiness Solutions
+page.services.ebusiness.info: We are experienced in developing advanced systems with complex business logic dealing with large amounts of data and transactions. We are able to supply you with an innovative trustworthy software solution to complement your most complicated business ideas.
+
+more.about.us: More About Us
+company.services: Business solutions, Mobile technology development, and software services.
+company.slogan: Your best business partner
+company.resume: Tech506 is a companyw with a diverse enough team of designers and programmers to cater to all kinds of custom development needs. Our specialties and strength in technology include developing custom software projects, We develop innovative software for the various platforms such as Windows, Linux, and web as well.

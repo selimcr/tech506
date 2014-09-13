@@ -1,0 +1,4 @@
+company:
+    resource: "@CompanyBundle/Resources/config/routing.yml"
+    prefix:   /
+

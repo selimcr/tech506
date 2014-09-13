@@ -1,0 +1,93 @@
+{% extends 'CompanyBundle::layout.html.twig' %}
+
+{% block body %}
+<!-- Slider -->
+<div id="slider-block">
+    <div id="slider-holder">
+        <div id="slider">
+            <a href="#">
+                <img src="{{ asset('banners/01.jpg') }}"
+                     title="{{ 'page.banner.1.info'|trans }}" alt="" />
+            </a>
+            <a href="#">
+                <img src="{{ asset('banners/02.jpg') }}"
+                     title="{{ 'page.banner.2.info'|trans }}" alt="" />
+            </a>
+            <a href="#">
+                <img src="{{ asset('banners/03.jpg') }}"
+                     title="{{ 'page.banner.3.info'|trans }}" alt="" />
+            </a>
+        </div>
+    </div>
+</div>
+<!-- ENDS Slider -->
+
+<!-- MAIN -->
+<div id="main">
+    <!-- wrapper-main -->
+    <div class="wrapper">
+        <!-- headline -->
+        <div class="clear"></div>
+        <div id="headline">
+            <span class="main">Tech506</span>
+            <span class="sub">{{ 'company.services'|trans }}</span>
+            <a href="http://luiszuno.com/blog/downloads/nova-html-template" id="link"
+               class="link-button-big"><span>{{ 'more.about.us'|trans }}</span></a>
+        </div>
+        <!-- ENDS headline -->
+
+        <!-- content -->
+        <div id="content">
+
+            <!-- TABS -->
+            <!-- the tabs -->
+            <ul class="tabs">
+                <li><a href="#"><span>{{ 'page.services'|trans }}</span></a></li>
+            </ul>
+
+            <!-- tab "panes" -->
+            <div class="panes">
+
+                <!-- Posts -->
+                <div>
+                    <ul class="blocks-thumbs thumbs-rollover">
+                        <li>
+                            <a href="single.html" class="thumb" title="An image">
+                                <img src="{{ asset('img/http.jpg') }}" alt="Post" />
+                            </a>
+                            <div class="excerpt">
+                                <a href="single.html" class="header">{{ 'page.services.web'|trans }}</a>
+                                <p class="justify">{{ 'page.services.web.info'|trans }}</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="single.html" class="thumb" title="An image">
+                                <img src="{{ asset('img/cms.jpg') }}" alt="Post" /></a>
+                            <div class="excerpt">
+                                <a href="single.html" class="header">{{ 'page.services.custom'|trans }}</a>
+                                <p class="justify">{{ 'page.services.custom.info'|trans }}</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="single.html" class="thumb" title="An image">
+                                <img src="{{ asset('img/ecommerce.jpg') }}" alt="Post" /></a>
+                            <div class="excerpt">
+                                <a href="single.html" class="header">{{ 'page.services.ebusiness'|trans }}</a>
+                                <p class="justify">{{ 'page.services.ebusiness.info'|trans }}</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- ENDS services -->
+
+            </div>
+            <!-- ENDS TABS -->
+
+        </div>
+        <!-- ENDS content -->
+
+    </div>
+    <!-- ENDS wrapper-main -->
+</div>
+<!-- ENDS MAIN -->
+{% endblock %}

@@ -1,0 +1,134 @@
+{% extends 'CompanyBundle::layout.html.twig' %}
+
+{% block body %}
+<!-- MAIN -->
+<div id="main">
+    <!-- wrapper-main -->
+    <div class="wrapper">
+
+        <!-- content -->
+        <div id="content">
+
+            <!-- title -->
+            <div id="page-title">
+                <span class="title">{{ 'portfolio.title'|trans }}</span>
+                <span class="subtitle">{{ 'portfolio.subtitle'|trans }}</span>
+            </div>
+            <!-- ENDS title -->
+
+            <!-- filter
+            <ul class="filter">
+                <li>Categories</li>
+                <li><a href="#" > Web </a></li>
+                <li><a href="#" > Photography </a></li>
+                <li><a href="#" > Gaming </a></li>
+                <li><a href="#" > Coding </a></li>
+            </ul>
+            <!-- ENDS filter -->
+
+            <!-- Portfolio -->
+            <div id="projects-list">
+
+                <!-- project -->
+                <div class="project">
+                    <h1><a href="project.html">RetoAprender.com</a></h1>
+
+                    <!-- shadow -->
+                    <div class="project-shadow">
+                        <!-- project-thumb -->
+                        <div class="project-thumbnail">
+
+                            <!-- meta -->
+                            <ul class="meta">
+                                <li><strong>Project date</strong> Dec 27th 2012 </li>
+                                <li><strong>Client</strong> RetoAprender</li>
+                                <li><strong>Visit website</strong>
+                                    <a href="http://www.retoaprender.com" target="_blank">www.retoaprender.com</a>
+                                </li>
+                            </ul>
+                            <!-- ENDS meta -->
+
+                            <a href="http://www.retoaprender.com" class="cover" target="_blank">
+                                <img src="{{ asset('portfolio/retoaprender.png') }}" alt="RetoAprender" /></a>
+                        </div>
+                        <!-- ENDS project-thumb -->
+
+                        <div class="the-excerpt justify">
+                            Nace de una necesidad a nivel del pais, para contribuir con la comunidad estudiantil
+                            costarricense en el desarrollo de educandos mas criticos y comprometidos con sus
+                            obligaciones escolares en la construccion de un mejor futuro.
+                        </div>
+                        <a href="http://www.retoaprender.com" target="_blank" class="read-more link-button">
+                            <span>{{ 'portfolio.view.project'|trans }}</span></a>
+
+                    </div>
+                    <!-- ENDS shadow -->
+                </div>
+                <!-- ENDS project -->
+
+                <!-- project -->
+                <div class="project">
+                    <h1><a href="project.html">Clinica Dr. Cubero</a></h1>
+
+                    <!-- shadow -->
+                    <div class="project-shadow">
+                        <!-- project-thumb -->
+                        <div class="project-thumbnail">
+
+                            <!-- meta -->
+                            <ul class="meta">
+                                <li><strong>Project date</strong> May 27th 2013 </li>
+                                <li><strong>Client</strong> Cubero-Ortodoncia</li>
+                                <li><strong>Visit website</strong>
+                                    <a href="http://cubero-ortodoncia.com/#" target="_blank">www.cubero-ortodoncia.com/</a>
+                                </li>
+                            </ul>
+                            <!-- ENDS meta -->
+
+                            <a href="http://cubero-ortodoncia.com/"  target="_blank" class="cover">
+                                <img src="{{ asset('portfolio/cubero.jpg') }}" alt="Feature image" />
+                            </a>
+                        </div>
+                        <!-- ENDS project-thumb -->
+
+                        <div class="the-excerpt justify">
+                            Pagina Web creada con el objetivo de presentar la clinica,
+                            los servicios que la misma presenta y los multiples casos de exito con los que cuenta.
+                            Sitio principal con la informacion y un sitio administrativo en donde se ingresan y
+                            administran entre otras cosas la informacion de los casos de exito.
+                        </div>
+                        <a href="http://cubero-ortodoncia.com/" target="_blank" class="read-more link-button">
+                            <span>{{ 'portfolio.view.project'|trans }}</span></a>
+
+                    </div>
+                    <!-- ENDS shadow -->
+                </div>
+                <!-- ENDS project -->
+
+            </div>
+            <!-- ENDS Portfolio -->
+
+            <div class="clear"></div>
+
+            <!-- pagination
+            <ul class='pager'>
+                <li class='first-page'><a href='#'>&laquo;</a></li>
+                <li><a href='#' >&lsaquo;</a></li>
+                <li><a href='#' >2</a></li>
+                <li><a href='#' >3</a></li>
+                <li class='active'><a href='#'>4</a></li>
+                <li><a href='#' >5</a></li>
+                <li><a href='#' >6</a></li>
+                <li><a href='#' >&rsaquo;</a></li>
+                <li class='last-page'><a href='#'>&raquo;</a></li>
+            </ul>
+            <!-- ENDS pagination -->
+
+        </div>
+        <!-- ENDS content -->
+
+    </div>
+    <!-- ENDS wrapper-main -->
+</div>
+<!-- ENDS MAIN -->
+{% endblock %}

@@ -1,0 +1,76 @@
+{% extends 'CompanyBundle::layout.html.twig' %}
+
+{% block body %}
+<!-- MAIN -->
+<div id="main">
+    <!-- wrapper-main -->
+    <div class="wrapper">
+
+        <!-- content -->
+        <div id="content">
+
+            <!-- title -->
+            <div id="page-title">
+                <span class="title">{{ 'contact.title'|trans }}</span>
+                <span class="subtitle">{{ 'contact.subtitle'|trans }}</span>
+            </div>
+            <!-- ENDS title -->
+
+            <!-- column (left)-->
+            <div class="one-column">
+                <!-- form -->
+                <script type="text/javascript" src="{{ asset('themes/initial/js/form-validation.js') }}"></script>
+                <form id="contactForm" action="#" method="post">
+                    <fieldset>
+                        <div>
+                            <label>{{ 'contact.form.name'|trans }}</label>
+                            <input name="name"  id="name" type="text" class="form-poshytip" title="Enter your full name" />
+                        </div>
+                        <div>
+                            <label>{{ 'contact.form.email'|trans }}</label>
+                            <input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" />
+                        </div>
+                        <div>
+                            <label>{{ 'contact.form.country'|trans }}</label>
+                            <input name="country"  id="country" type="text" class="form-poshytip" title="Enter your country" />
+                        </div>
+                        <div>
+                            <label>{{ 'contact.form.phone'|trans }}</label>
+                            <input name="phone"  id="phone" type="text" class="form-poshytip" title="Enter your phone
+                             number" />
+                        </div>
+                        <div>
+                            <label>{{ 'contact.form.comments'|trans }}</label>
+                            <textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="Enter your comments"></textarea>
+                        </div>
+
+                        <p><input type="button" value="{{ 'contact.form.send'|trans }}" name="submit" id="submit"
+                                /></p>
+                    </fieldset>
+                    <p id="error" class="warning">Message</p>
+                </form>
+                <p id="success" class="success">Thanks for your comments.</p>
+                <!-- ENDS form -->
+            </div>
+            <!-- ENDS column -->
+
+            <!-- column (right)-->
+            <div class="one-column">
+                <!-- content -->
+                <p><img src="{{ asset('themes/initial/img/map.jpg') }}" alt="map"></p>
+                <p>{{ 'contact.info'|trans }}</p>
+                <p>Colombia, Antioquia, Envigado<br/>
+                    (57) 301 252 6470<br/>
+                    <a href="mailto:contact@tech506.com">contact@tech506.com</a></p>
+                <!-- ENDS content -->
+            </div>
+            <!-- ENDS column -->
+
+        </div>
+        <!-- ENDS content -->
+
+    </div>
+    <!-- ENDS wrapper-main -->
+</div>
+<!-- ENDS MAIN -->
+{% endblock %}
